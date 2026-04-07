@@ -1,0 +1,14 @@
+{
+  "name": "airtable-shipstation-location-sync-update-only",
+  "version": "0.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "sync-products": "node src/sync_products.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
